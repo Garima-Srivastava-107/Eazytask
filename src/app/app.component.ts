@@ -15,7 +15,7 @@ export class AppComponent {
   title = 'starterProject';
   users = DUMMY_USERS;
   selectedUserName!:string;
-  selectedUserId = 'u1';
+  selectedUserId?:string;
 //   onSelectUser(id:string){
 //  console.log("The clicked user is :"+id);
 //   let idx:number=-1;
